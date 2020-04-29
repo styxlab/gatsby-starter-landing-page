@@ -6,7 +6,6 @@ module.exports = {
     siteUrl: `https://gatsby-starter-landing-page.netlify.com`,
   },
   plugins: [
-  	`gatsby-plugin-theme-ui`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

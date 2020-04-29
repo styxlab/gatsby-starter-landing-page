@@ -14,6 +14,7 @@ const Header = ({ siteTitle }) => (
       alignItems: "center",
       flexDirection: "column",
       padding: "4rem 1rem",
+      fontFamily: "sans-serif",
     }}
   >
     <div
