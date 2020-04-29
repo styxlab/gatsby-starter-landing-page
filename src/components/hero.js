@@ -27,8 +27,8 @@ const Header = ({ siteTitle }) => (
         opacity: 0.5,
       }}
     />
-    <h1 style={{ textAlign: "center", margin: 0, marginBottom: "10px"}}>Landing Page Starter</h1>
-    <p style={{ textAlign: "center", maxWidth: 440 }}>
+    <h1 style={{ textAlign: "center", margin: 0, marginBottom: "10px", fontSize: "200%"}}>Landing Page Starter</h1>
+    <p style={{ textAlign: "center", maxWidth: 440, fontSize: "110%" }}>
       This landing page looks great on all devices and is minimal in design. Add
       what you want and deploy.
     </p>
