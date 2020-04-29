@@ -28,6 +28,8 @@ const Layout = ({ children }) => (
         <div
           style={{
             padding: "0 1rem",
+            fontFamily: "-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif",
+            fontSize: '1.1rem',
           }}
         >
           <main>{children}</main>

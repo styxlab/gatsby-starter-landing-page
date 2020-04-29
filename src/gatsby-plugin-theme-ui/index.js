@@ -1,4 +1,5 @@
 export default {
+  useBodyStyles: false,
   colors: {
     text: 'hsla(0, 0%, 0%, 0.8)',
     background: '#fff',
@@ -9,10 +10,4 @@ export default {
   fontSizes: [
     12, 14, 16, 21, 24, 32, 48, 64
   ],
-  styles:  {
-  	root:  {
-  		fontFamily: 'body',
-  		fontSize: [3],
-  	},
-  }
 }

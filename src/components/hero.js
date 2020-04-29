@@ -1,5 +1,6 @@
 import React from "react"
 import PropTypes from "prop-types"
+import { Link } from 'gatsby'
 
 import Button from "../components/button"
 import headerImage from "../images/header.png"
@@ -31,7 +32,9 @@ const Header = ({ siteTitle }) => (
       This landing page looks great on all devices and is minimal in design. Add
       what you want and deploy.
     </p>
-    <Button>Get Early Access</Button>
+    <Link to='/blog'>
+    	<Button>Get Early Access</Button>
+    </Link>
     <div style={{ margin: 60, width: `250px`, position: "relative" }}>
       <div style={{ clipPath: "inset(2% 5% round 2% 5%)" }}>
         <MockupContent />
